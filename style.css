@@ -5,11 +5,12 @@ section {
   grid-column-gap: 5px;
   margin: 5px;
   justify-content: center;
+  font-family: 'Arimo', sans-serif;
+  color: grey;
 }
 .top-row > div{
   border-radius: 10px;
-  border-color: black;
-  border: solid;
+  border: 2px solid grey;
 }
 .top-row {
   align-content: center;
@@ -18,78 +19,25 @@ padding-left: 110px;
 
 .number-row > div{
   border-radius: 10px;
-  border-color: black;
-  border: solid;
+  border: 2px solid grey;
+}
+.home-row >div {
+  border-radius: 10px;
+  border: 2px solid grey;
 }
 .home-row{
   padding-left: 225px;
 }
 .bottom-row > div{
   border-radius: 10px;
-  border-color: black;
-  border: solid;
+  border: 2px solid grey;
 }
 .bottom-row{
   padding-left: 325px;
 }
-.a{
-  grid-column-start: 1;
-  border-radius: 10px;
-  border-color: black;
-  border: solid;
-}
-
-.s{
-  grid-column-start: 2;
-  border-radius: 10px;
-  border-color: black;
-  border: solid;
-}
-
-.d{
-  grid-column-start: 3;
-  border-radius: 10px;
-  border-color: black;
-  border: solid;
-}
-
-.f{
-  grid-column-start: 4;
-  border-radius: 10px;
-  border-color: black;
-  border: solid;
-}
-
-.g{
-  grid-column-start: 5;
-  border-radius: 10px;
-  border-color: black;
-  border: solid;
-}
-
-.h{
-  border-radius: 10px;
-  border-color: black;
-  border: solid;
-}
-.j{
-  border-radius: 10px;
-  border-color: black;
-  border: solid;
-}
-
-.k{
-  border-radius: 10px;
-  border-color: black;
-  border: solid;
-}
-.l{
-  border-radius: 10px;
-  border-color: black;
-  border: solid;
-}
-.semi{
-  border-radius: 10px;
-  border-color: black;
-  border: solid;
+.logo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+  padding-top: 50px;
 }
