@@ -8,61 +8,61 @@ $(document).keydown(function (event){
     $('.one').animate({backgroundColor: random},500, function(){
       $(this).animate({backgroundColor: 'white'}, 500);
     });
-    $('#a-audio')[0].play();
+    $('#one-audio')[0].play();
     console.log("1");
   } else if(event.keyCode == 50){
     $('.two').animate({backgroundColor: random},500, function(){
       $(this).animate({backgroundColor: 'white'}, 500);
     });
-    $('#a-audio')[0].play();
+    $('#two-audio')[0].play();
     console.log("2");
   } else if(event.keyCode == 51){
     $('.three').animate({backgroundColor: random},500, function(){
       $(this).animate({backgroundColor: 'white'}, 500);
     });
-    $('#a-audio')[0].play();
+    $('#three-audio')[0].play();
     console.log("3");
   }else if(event.keyCode == 52){
     $('.four').animate({backgroundColor: random},500, function(){
       $(this).animate({backgroundColor: 'white'}, 500);
     });
-    $('#a-audio')[0].play();
+    $('#four-audio')[0].play();
     console.log("4");
   } else if(event.keyCode == 53){
     $('.five').animate({backgroundColor: random},500, function(){
       $(this).animate({backgroundColor: 'white'}, 500);
     });
-    $('#a-audio')[0].play();
+    $('#five-audio')[0].play();
     console.log("5");
   } else if(event.keyCode == 54){
     $('.six').animate({backgroundColor: random},500, function(){
       $(this).animate({backgroundColor: 'white'}, 500);
     });
-    $('#a-audio')[0].play();
+    $('#six-audio')[0].play();
     console.log("6");
   } else if(event.keyCode == 55){
     $('.seven').animate({backgroundColor: random},500, function(){
       $(this).animate({backgroundColor: 'white'}, 500);
     });
-    $('#a-audio')[0].play();
+    $('#seven-audio')[0].play();
     console.log("7");
   } else if(event.keyCode == 56){
     $('.eight').animate({backgroundColor: random},500, function(){
       $(this).animate({backgroundColor: 'white'}, 500);
     });
-    $('#a-audio')[0].play();
+    $('#eight-audio')[0].play();
     console.log("8");
   } else if(event.keyCode == 57){
     $('.nine').animate({backgroundColor: random},500, function(){
       $(this).animate({backgroundColor: 'white'}, 500);
     });
-    $('#a-audio')[0].play();
+    $('#nine-audio')[0].play();
     console.log("9");
   } else if(event.keyCode == 48){
     $('.zero').animate({backgroundColor: random},500, function(){
       $(this).animate({backgroundColor: 'white'}, 500);
     });
-    $('#a-audio')[0].play();
+    $('#zero-audio')[0].play();
     console.log("0");
   } else if(event.keyCode == 189){
     $('.dash').animate({backgroundColor: random},500, function(){
