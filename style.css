@@ -1,11 +1,37 @@
-main {
+section {
   display: grid;
-  grid-template-columns: repeat(10, 9%);
+  grid-template-columns: repeat(12, 100px);
   text-align: center;
   grid-column-gap: 5px;
+  margin: 5px;
   justify-content: center;
 }
+.top-row > div{
+  border-radius: 10px;
+  border-color: black;
+  border: solid;
+}
+.top-row {
+  align-content: center;
+padding-left: 110px;
+}
 
+.number-row > div{
+  border-radius: 10px;
+  border-color: black;
+  border: solid;
+}
+.home-row{
+  padding-left: 225px;
+}
+.bottom-row > div{
+  border-radius: 10px;
+  border-color: black;
+  border: solid;
+}
+.bottom-row{
+  padding-left: 325px;
+}
 .a{
   grid-column-start: 1;
   border-radius: 10px;
