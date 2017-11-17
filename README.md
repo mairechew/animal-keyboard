@@ -2,6 +2,8 @@
 
 A lively, interactive keyboard with various sounds for entertainment. Get funky with FUNKEYS! 
 
+![](https://github.com/mairechew/animal-keyboard/blob/master/funkeys.gif)
+
 ## Authors
 
 * **Kyle Reubendale** - *Initial work* - (https://github.com/KyleReubendale)
